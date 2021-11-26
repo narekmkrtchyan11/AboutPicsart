@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    min-width: 1024px;
+    box-shadow: 0 1px 0 0 #f2f2f2;
+    display: flex;
+    align-items: center;
+    font-family: Picsart-Fonts, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arabic, sans-serif;
+}
+ #logoandlink{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 100px ;
+    }
+
+.linksdiv{
+    margin-left: 55px;
+}
+
+
+.linksdiv a{
+    color: #535771;
+    height: 36px;
+    display: inline-block;
+    size: 14px;
+    transition: color 0.3s ease-in-out;
+    font-weight: 600;
+    line-height: 36px;
+    text-decoration: none;
+    padding: 16px;
+    transition: color 0.3s ease-in-out;
+    font-size: 14px;
+    text-shadow: none;
+    font-family: Picsart-Fonts, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arabic, sans-serif;
+  }
+  .linksdiv a:hover{
+      color: #323539;
+  }
+
+.bottondiv{
+   position: relative;
+   height: 100%;
+   margin-left: 510px;
+}
+
+.bottondiv button{
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+.loginbutton{
+    color: #535771;
+     background-color: transparent;
+     border-radius: 6px;
+   
+    
+}
+
+.loginbutton:hover{
+    background-color:#f0efed;
+    transition: 0.9s;
+    
+}
+
+.signupbutton{
+    border-radius: 6px;
+    color: white;
+    background-color:black;
+    margin-left: 10px;
+}
+
+    main{
+        max-width: 70%;
+        height: auto;
+        padding: 0 12px;
+        display: flex;
+        flex-direction: column; 
+        padding-left: 140px;
+    }
+
+.image{
+    width: 100%;
+    height: 325px;
+    background-position: 50% 50%; 
+    background-repeat: no-repeat;
+    animation-name: image;
+    animation:image 3s infinite;
+
+}
+
+@keyframes image{
+    50%{opacity: 0;}
+}
+
+h1{
+    font-weight: 600;
+    line-height: 1.35;
+    text-transform: uppercase;
+    width: 80%;
+    float: left;
+    margin-top: 16px;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    padding: 0 32px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 140px;
+    color: #222;
+    font-family: Picsart-Fonts, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arabic, sans-serif;
+}
+
+p{
+    display: block;
+    font-size: 16px;
+    line-height: 1.67;
+    padding-left: 140px;
+    color: #222;
+    margin: 16px 0;
+    width: 80%;
+    float: left;
+    font-family: Picsart-Fonts, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arabic, sans-serif;
+
+}
+
+#Startbutton{
+    margin: 16px 0 24px;
+    padding: 13px 24px;
+    border: none;
+    background-color: #ce3acd;
+    color: white;
+    font-size: 16px;
+    line-height: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: inherit;
+    width: 172px;
+    height: 40px;
+    display: flex;
+    margin-left: 140px;
+    
+}
+
+li{
+    width: 29%;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    line-height: 1.67;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    display:inline-block;
+    width: 189px;
+    height: 189px;
+}
+img{
+    border-radius: 10px;
+    position: relative;
+    /* margin-left: 70%; */
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
